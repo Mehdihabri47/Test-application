@@ -31,6 +31,7 @@ password : liveTest
 
 Login form specifications : 
 * It must raise an error if one the fields is empty, and displays a message
+* It must show an error message if the login and/or password is not correct
 * the login button must be disabled if an error is raised
 * 'Forgot password' sentence must redirect to "/forgot-password"
 * The form must redirect to "/home" if the login and password are correct
